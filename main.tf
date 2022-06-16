@@ -13,7 +13,7 @@ provider "yandex" {
   token     = "AQ..w0"
   cloud_id  = "b1g43hks12bv8as0q653"
   folder_id = "b1ga7u7bcjd3rfctvh7j"
-  zone      = "ru-central1-c"
+  zone      = "ru-central1-a"
 }
 
 resource "yandex_compute_image" "ubuntu-image" {
